@@ -10,6 +10,6 @@
 # Java-Intermediate
 * 1) List (ArrayList, Linked List, Hash Set, LinkedHashSet)
 * 2) Map(HashMap, Tree Map)
-* 2)JDBC
-* 2)Servlet 
-* 3)MailAPI
+* 3)JDBC
+* 4)Servlet 
+* 5)MailAPI
