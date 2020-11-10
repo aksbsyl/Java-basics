@@ -8,8 +8,8 @@
 * 6)Threads
 * 6)Several logics 
 # Java-Intermediate
-* 1) List (ArrayList, Linked List, Hash Set, LinkedHashSet)
-* 2) Map(HashMap, Tree Map)
+* 1)List (ArrayList, Linked List, Hash Set, LinkedHashSet)
+* 2)Map(HashMap, Tree Map)
 * 3)JDBC
 * 4)Servlet 
 * 5)MailAPI
