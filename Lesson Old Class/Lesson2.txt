@@ -1,0 +1,35 @@
+Void: Return no value
+System: is a predefined class
+static: saves memory
+public static: entry point ho
+
+class: sabai object ko lagi common huncha: virtual entity
+object: stances of class: Physical entity
+
+How to create an object?
+Classname Objectname=  new Classname();     // New is a keyword which creates object: is a constructor
+
+*They call it function in C. We call it Method in Java
+*Method ko name, return type huncha
+
+How to create a method?
+
+
+# Int to String Conversion
+
+public class casting {
+    public static void main(String[] args) {
+        String x="1";
+        //Implicit Casting
+        //byte > short > int > long > float > double
+        int y = Integer.parseInt(x) +2;
+        System.out.println(y);
+    }
+}
+
+
+# String to Int Conversion
+
+int empID = 1534; 
+String myString = String.valueOf(empID); 
+System.out.println(myString);

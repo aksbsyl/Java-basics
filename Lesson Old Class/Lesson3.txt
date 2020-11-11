@@ -1,0 +1,24 @@
+Instance variable : outside method inside class.>  Bahirai declare gareko variable
+*Instance variable lai initialize nagare ni hunchha
+
+#Is Java fully Object oriented?
+Ans: 8 primitive data types. So, not fully Object oriented. For being fully object oriented we should be able to create data types!
+eg: int,float,datatype etc
+
+Boolean default value: False
+Integer default value: 0
+String default value: null
+
+*By default,java.lang package bata lincha
+*In our program IfBlock, Scanner is predefined class found in java.util  
+*So, we need to import java.util.*
+
+
+if(condition) {
+if block
+}
+else
+{
+else block
+}
+

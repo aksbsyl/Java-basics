@@ -1,0 +1,10 @@
+1. Install JDk(Java Development Kit) latest version
+2. Under properties of My PC goto> Advanced System Settings> Environment Variables> Add path
+
+
+3. javac <filename> :compile java file and converts it to byte format/class format
+4. .Class file works on all OS- Linux,Mac, Windows and all. So Java is independent 
+
+
+*Intellij Idea :Java IDE
+Duckduckgo

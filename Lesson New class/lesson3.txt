@@ -1,0 +1,21 @@
+Back end: Database
+Front end: UI/UX
+
+Database, MYSQL and Maven
+1. To download mysql connector from mvnrepository: https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.21
+2. Copy this jar file to lib folder(which you create inside a project)
+3. Add lib folder as library and run following to create connection to database
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLClientInfoException;
+import java.sql.SQLException;
+
+public class Dbjs {
+
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+        Class.forName("com.mysql.jdbc.Driver");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/aks", "root","V@mp1r330");
+        System.out.println("DB connected");
+
+    }
+}

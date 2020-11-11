@@ -1,0 +1,121 @@
+OOP
+
+-Object
+-Class
+-Constructor
+-Inheritance
+-Polymorphism
+-Encapsulation
+-Abstraction
+
+super(); keyword used to return parameters of parent class // Used in constructors 
+
+Menu 1
+1: Add
+2: Subtract
+3: Divide
+4: Multiplication
+Menu 2
+1: 2 numbers
+2: 3 numbers
+3: 4 numbers
+
+#Polymorphism
+Polymorphism is the ability of an object to take on many forms. 
+The most common use of polymorphism in OOP occurs when a parent 
+class reference is used to refer to a child class object. Any 
+Java object that can pass more than one IS-A test is considered to be polymorphic.
+
+
+1) Compile Time (Method Overloading/ Function overloading/ Operator overloading) : Static Polymorphism
+
+Class A
+{
+public void show()
+{
+
+}
+public void show(int i,int j)
+{
+
+}
+
+public static void main(String[] args)
+{
+A obj = new A()
+obj.show(s);
+
+
+
+
+
+
+
+2) Runtime Polymorphism(Method Overriding) : Dynamic Polymorphism
+
+Class A
+{
+
+public void show()
+{
+
+}
+
+}
+
+Class B extends A
+{
+
+public void show()
+{
+
+}
+
+}
+
+public static void main(String[] args)
+{
+B obj = new B()
+obj.show();
+
+
+
+
+
+while (ask.equalsIgnoreCase"yes")
+
+#Encapsulation
+Encapsulation is one of the fundamentals of OOP (object-oriented programming). 
+It refers to the bundling of data with the methods that operate on that data.
+ Encapsulation is used to hide the values or state of a structured data object 
+inside a class, preventing unauthorized parties' direct access to them.
+
+
+#Abstraction
+Data abstraction is the process of hiding certain details and showing only essential
+information to the user. Abstraction can be achieved with either abstract classes or
+interfaces .
+	Simply, only focusing on important stuff of something is called Abstraction
+
+Advantage of having abstract class is that u cannot create object of abstract class
+
+* Abstract Methods
+-are those methods that are declared not defined
+
+eg:  public abstract void login();
+
+-You can have abstract methods only inside abstract class
+-An abstract class have both abstract methods and normally defined methods.
+-You cannot create object of abstract classes
+-To access the abstract class, it must be inherited from another class.
+
+However we cannot call two abstract classes in one single class
+to overcome this we use interface
+
+
+#Interface
+-An interface can ony have abstract methods
+-So, basically in abstract, u can define and declare methods while in interface, you can only declare
+but not define methods
+-Just like you cannot create object of abstract class, similarly you cannot create object of interface
+-Two interfaces can be used by single class and it is done by command implements (not extends) 	

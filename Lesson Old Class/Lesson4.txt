@@ -1,0 +1,17 @@
+*Infinite Loop:
+1) For loop
+
+i.   for(;;)
+ii.  for(;true;)
+
+
+*Do while condition
+
+do {
+
+body of do while
+
+} while (condition);
+
+css
+javascript
